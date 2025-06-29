@@ -252,6 +252,46 @@
     border-radius: 50%;
 }
 
+/*   sec 5 */
+.sec_5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(images/افوجادو.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 55vh;
+    width:100%;
+}
+
+.cont_5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: #eee;
+    font-size: 30px;
+    font-family: Merriweather;
+    text-align: center;
+    height: 100%;
+    margin: 30px;
+}
+
+.span_sec_5 {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    background-color: #29d315;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.num_5 {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+
 /*      sec 6        */
 .sec_6 {
     display: flex;
@@ -322,183 +362,212 @@
 
 /*     sec 7 */
 .sec_7 {
-  width: 100%;
-  height: 90vh;
-  background-color: rgb(234, 253, 235);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 40px 20px;
-  box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(234, 253, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
 
 .s7_part_1 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .sec_7_tit_1 {
-  font-family: Arizonia;
-  font-weight: 500;
-  font-size: 30px;
-  margin: 10px;
+    font-family: Arizonia;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px;
 }
 
 .sec_7_tit_2 {
-  font-size: 50px;
-  font-weight: bold;
-  margin: 0;
-  font-family: Merriweather;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    font-family: Merriweather;
 }
 
 .bxs {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .bx7 {
-  background-color: white;
-  padding: 30px 20px;
-  border-radius: 10px;
-  width: 150px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.3s;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
 }
 
 .bx7:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .continer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: auto; 
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img_sec7 {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .p_sec7 {
-  font-size: 20px;
-  line-height: 1.6;
-  margin: 0;
-  color: #333;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
 }
 
 .name {
-  font-weight: bold;
-  font-family: Merriweather;
-  margin-top: 10px;
-  font-size: 16px;
-  text-transform: uppercase;
+    font-weight: bold;
+    font-family: Merriweather;
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
+
+/*      sec 8       */
+.sec_8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_8 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 1100px;
+}
+
+.gallery-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-top: 20PX;
+}
+
 
 
 /*      sec 9       */
 .sec_9 {
-  width: 100%;
-  min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .cont_9 {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sec_9_tit_1 {
-  font-family: Merriweather;
-  font-size: 40px;
-  margin: 40px;
+    font-family: Merriweather;
+    font-size: 40px;
+    margin: 40px;
 }
 
 .sec_9_part_2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 60px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
-.sec_9_1,.sec_9_2 {
-  flex: 1 1 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.sec_9_1,
+.sec_9_2 {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
 .img_sec_9 {
-  width: 300px;
-  height: 300px;
-  border-radius: 70%;
-  margin-bottom: 20px;
-  object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
 
 .p_9 {
-  font-size: 20px;
-  margin: 10px 0;
-  line-height: 1.3;
-  max-width: 600px;
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.3;
+    max-width: 600px;
 }
 
 .sec_9_subtitle {
-  font-family: Merriweather;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin-bottom: 15px;
+    font-family: Merriweather;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 15px;
 
 }
 
 .sec_9_tit_2 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  max-width: 600px;
-  line-height: 1.2;
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    line-height: 1.2;
 }
 
 .btn_sec_9 {
-  display: flex;
-  width: 100%;
-  max-width: 500px;
-  border: none;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    border: none;
 }
 
 .input_sec_9 {
-  flex: 1;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  background-color: #eee;
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #eee;
 }
 
 .button_sec_9 {
-  background-color: #29d315;
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  cursor: pointer;
-  font-family: Merriweather;
-  font-size: 17px;
-  transition: background-color 0.3s ease;
+    background-color: #29d315;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Merriweather;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
 }
 
 .button_sec_9:hover {
-  background-color: #24b313;
+    background-color: #24b313;
+    
 }
