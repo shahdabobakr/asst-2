@@ -74,7 +74,7 @@
     font-family: Merriweather;
 }
 
-.bxs {
+.boxs {
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -84,10 +84,10 @@
 
 }
 
-.bx_1,
-.bx_2,
-.bx_3,
-.bx_4 {
+.box_1,
+.box_2,
+.box_3,
+.box_4 {
     flex: 1;
     max-width: 250px;
     text-align: center;
@@ -314,7 +314,7 @@
     font-weight: bold;
 }
 
-.bxs_6 {
+.boxs_6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,7 +352,7 @@
     font-size: 16px;
 }
 
-.bx {
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,14 +392,14 @@
     font-family: Merriweather;
 }
 
-.bxs {
+.boxs {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.bx7 {
+.box7 {
     background-color: white;
     padding: 30px 20px;
     border-radius: 10px;
@@ -411,7 +411,7 @@
     transition: transform 0.3s;
 }
 
-.bx7:hover {
+.box7:hover {
     transform: scale(1.03);
 }
 
